@@ -1,9 +1,8 @@
 import StatCard from '@/app/components/StatCard'
 import { prisma } from '@/app/src/lib/prisma'
-import type { Booking } from '@prisma/client'
 
 export default async function Dashboard() {
-  const bookings: Booking[] = await prisma.booking.findMany({
+  const bookings = await prisma.booking.findMany({
     orderBy: { createdAt: 'desc' }
   })
 
