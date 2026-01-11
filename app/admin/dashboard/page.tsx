@@ -7,7 +7,7 @@ export default async function Dashboard() {
   })
 
   const total = bookings.length
-  const today = bookings.filter((b) => new Date(b.createdAt).toDateString() === new Date().toDateString()).length
+  const today = bookings.filter(({ createdAt }) => new Date(createdAt).toDateString() === new Date().toDateString()).length
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-black p-8 text-white">
