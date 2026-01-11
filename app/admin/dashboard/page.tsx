@@ -1,10 +1,19 @@
 import StatCard from '@/app/components/StatCard'
 import { prisma } from '@/app/src/lib/prisma'
 
+type BookingRow = {
+  id: string
+  createdAt: Date
+  city: string
+  pickupDate: string
+  dropDate: string
+  source: string
+}
+
 export default async function Dashboard() {
-  const bookings = await prisma.booking.findMany({
+  const bookings = (await prisma.booking.findMany({
     orderBy: { createdAt: 'desc' }
-  })
+  })) as BookingRow[]
 
   const total = bookings.length
   const today = bookings.filter(({ createdAt }) => new Date(createdAt).toDateString() === new Date().toDateString()).length
