@@ -35,7 +35,7 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold mb-4">Contact</h4>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li>📞 +91 9XXXXXXXXX</li>
+            <li>📞 +91 9517733556</li>
             <li>💬 WhatsApp Available</li>
             <li>📧 support@selfdrivetricity.com</li>
             <li>⏰ 24x7 Support</li>

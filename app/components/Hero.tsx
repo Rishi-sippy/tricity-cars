@@ -29,7 +29,7 @@ export default function Hero({ onBook }: { onBook: () => void }) {
 
         {/* RIGHT */}
         <div className="relative">
-          <img src="/carimg.png" alt="Self Drive Car" className="w-full max-w-xl mx-auto" />
+          <img src="/1.png" alt="Self Drive Car" className="w-full max-w-xl mx-auto" />
 
           <div className="absolute top-[-25px] right-0 bg-white rounded-xl md:px-4 px-2  md:py-3 py-2 shadow-lg md:text-[18px] text-[12px]">🚗 Instant Pickup</div>
 

@@ -1,11 +1,11 @@
 export const cars = [
   {
     id: 1,
-    name: 'Swift / i20',
+    name: 'Tiago',
     price: '₹1,499 / day',
     fuel: 'Petrol',
     seats: 5,
-    image: 'https://images.unsplash.com/photo-1549924231-f129b911e442?q=80&w=800'
+    image: '/car2.png'
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const cars = [
     price: '₹1,999 / day',
     fuel: 'Petrol',
     seats: 5,
-    image: 'https://images.unsplash.com/photo-1617814076668-6d0fdf7e6c39?q=80&w=800'
+    image: '/desire.png'
   },
   {
     id: 3,
@@ -21,6 +21,6 @@ export const cars = [
     price: '₹2,999 / day',
     fuel: 'Petrol',
     seats: 5,
-    image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=800'
+    image: '/tiago.png'
   }
 ]
