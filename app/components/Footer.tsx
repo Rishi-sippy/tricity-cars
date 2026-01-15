@@ -24,10 +24,18 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold mb-4">Service Locations</h4>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li>Self Drive Cars in Chandigarh</li>
-            <li>Self Drive Cars in Mohali</li>
-            <li>Self Drive Cars in Zirakpur</li>
-            <li>Self Drive Cars in Panchkula</li>
+            <li>
+              <a href="/self-drive-cars-chandigarh">Self Drive Cars in Chandigarh</a>
+            </li>
+            <li>
+              <a href="/self-drive-cars-mohali">Self Drive Cars in Mohali</a>
+            </li>
+            <li>
+              <a href="/self-drive-cars-zirakpur">Self Drive Cars in Zirakpur</a>
+            </li>
+            <li>
+              <a href="/self-drive-cars-panchkula">Self Drive Cars in Panchkula</a>
+            </li>
           </ul>
         </div>
 
